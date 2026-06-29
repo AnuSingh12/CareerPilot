@@ -13,3 +13,30 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Environment files
+.env
+.env.*
+
+# Secrets
+apikey.properties
+secret.properties
+keys.properties
+
+# Firebase
+google-services.json
+
+# Kotlin
+*.kotlin_module
+
+# Generated
+out/
+
+# Build
+**/build/
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
